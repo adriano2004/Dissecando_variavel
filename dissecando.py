@@ -1,0 +1,10 @@
+msn = input('Digite alguma coisa: ')
+
+print('É um número: ', msn.isnumeric())
+print('É alfabético: ', msn.isalpha())
+print('É decimal: ', msn.isdecimal())
+print('É alfanumerio: ', msn.isalnum())
+print('É apenas espaço: ', msn.isspace())
+print('É apenas maiúsculas: ', msn.isupper())
+print('É apenas minúsculas: ', msn.islower())
+print('É capitalizada: ', msn.istitle())
